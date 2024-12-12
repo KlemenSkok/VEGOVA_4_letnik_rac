@@ -1,0 +1,13 @@
+
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+
+#tab-filmi {
+    margin: 5rem auto 0 auto;
+    max-width: 100%;
+
+}

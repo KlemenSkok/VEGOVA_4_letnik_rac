@@ -1,0 +1,50 @@
+<html rp-extension="true">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<title>Prijavnica</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body background="./Prijavnica_files/ozadje.jpg">
+  <center>
+    <form id="form" method="post" action="mailto:klemen.skok@students.vegova.si" enctype="text/plain">
+      <hr>
+      <h3><font color="#0000FF">Mala šola programiranja </font></h3>
+      <h2><font color="#FF0000">Prijavnica</font></h2>
+      <pre>
+        <u><font size="+1">Ekipa:</font></u>
+        <b>Ime ekipe:</b>  <input type="text" name="imeekipe" size="20">
+
+        <u><font size="+1">Kapetan:</font></u>
+        <b>Ime:</b>  <input type="text" name="ime_kap" size="20">
+        <b>Priimek:</b>  <input type="text" name="priimek_kap" size="20">
+        <b>E-pošta:</b>  <input type="text" name="eposta_kap" size="20">
+        <b>Fakulteta oz. podjetje:</b>  <input type="text" name="faks_kap" size="20">
+        <b>Letnik študija (če ste študent ali dijak):</b>  <input type="text" name="letnik_kap" size="20">
+      </pre>
+      <!-- TODO: tale gumb more vedno ostat na dnu obrazca  -->
+      <button type="submit">Pošlji obrazec</button>
+    </form>
+    
+    <!-- `
+    <pre class="form-clan">
+        <u><font size="+1">član:</font></u>
+        
+        <b>Ime:</b>  <input type="text" name="ime_c${clan_counter}" size="20">
+        <b>Priimek:</b>  <input type="text" name="priimek_c${clan_counter}" size="20">
+        <b>E-pošta:</b>  <input type="text" name="eposta_c${clan_counter}" size="20">
+        <b>Fakulteta oz. podjetje:</b>  <input type="text" name="faks_c${clan_counter}" size="20">
+        <b>Letnik študija (če ste študent ali dijak):</b>  <input type="text" name="letnik_c${clan_counter}" size="20">
+    </pre>` -->
+    
+    
+  </center>
+  <center>
+    <button id="add-clan" onclick="dodajClana();">Dodaj člana</button>
+    <button id="remove-clan" onclick="odstraniClana();">Odstrani člana</button>
+  </center>
+  <script src="script.js"></script>
+</body>
+</html>

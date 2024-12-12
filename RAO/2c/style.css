@@ -1,0 +1,84 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.gumb {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.kvadrat {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.krog {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#Ikea div {
+    display: table;
+    border: 2px dashed black;
+    margin: 5px;
+}
+
+#Ikea button {
+    margin: 5px;
+    display: table;
+    border: 1px solid black;
+}
+
+
+/* ANIMACIJE */
+
+@keyframes gumb-anim {
+    from {
+        background-color: blue;
+        transform: scale(1);
+    }
+    to {
+        background-color: darkblue;
+        transform: scale(1.1);
+    }
+}
+
+.gumb {
+    transition: all 0.5s ease;
+}
+
+.gumb:hover {
+    animation: gumb-anim 0.5s both;
+}
+
+@keyframes kvadrat-anim {
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.kvadrat {
+    animation: kvadrat-anim 2s infinite alternate ease-in-out;
+}
+
+@keyframes krog-anim {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.krog {
+    animation: krog-anim 2s infinite linear;
+}

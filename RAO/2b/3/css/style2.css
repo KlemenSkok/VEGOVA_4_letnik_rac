@@ -1,0 +1,48 @@
+
+:root {
+    --back-color: #E1E8ED;
+    --post-color: #F5F8FA;
+    --text-color: #14171A;
+    --btn-color: #1DA1F2;
+}
+
+
+body {
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.content-area {
+    width: 30vw;
+}
+
+.content-area div {
+    width: 100%;
+    max-width: 100%;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: var(--post-color);
+    font-size: 30px;
+}
+
+.your-post {
+    min-height: 100px;
+    background-color: var(--post-color);
+    margin: 2px 0 5px 0;
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.tween-btn {
+    background-color: var(--btn-color);
+    color: var(--post-color);
+    border-radius: 10px;
+}

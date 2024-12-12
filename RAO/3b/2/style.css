@@ -1,0 +1,26 @@
+#buttons-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#main-body {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    background-color: cadetblue;
+    border: 1px solid #a09f9f;
+    border-radius: 5px;
+    min-width: 40px;
+    min-height: 20px;
+}
+
+button:hover {
+    background-color: rgb(92, 144, 146);
+    border: 1px solid white;
+}
+
+body {
+    background-color: antiquewhite;
+}

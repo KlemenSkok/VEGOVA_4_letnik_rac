@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="vnos-imena">
+        <p>Vnesi svoje ime:</p>
+        <input type="text" name="input_ime" id="input_ime">
+        <button class="gumb" type="submit" onclick="prikaziIme()">Naprej</button>
+    </div>
+    <p id="pozdrav"></p>
+    
+    <h1 class="glavni_naslov">Predlagatelji referenduma o Jeku 2 vložili predlog za njegov preklic</h1>
+    <p id="odstavek">
+        Poslanske skupine, ki so predlagale posvetovalni referendum o projektu nove nuklearke v Krškem (Jek 2), so v državni zbor vložile predlog odloka za razveljavitev njegovega razpisa. O preklicu referenduma naj bi državni zbor odločal v četrtek. Premier Robert Golob je medtem ocenil, da je referendum na nek način izsilila SDS, ter izrazil mnenje, da končna odločitev o tem ne bo sprejeta pred letom 2027 ali 2028. Državna volilna komisija pa je sporočila, da so že ustavili vse referendumske aktivnosti, ki bi imele finančne posledice.    
+    </p>
+    <hr>
+    
+    <p id="izpis_dolzina_odstavka"></p>
+    <button class="gumb" id="dolzina_odstavka" onclick="dolzina_odstavka()">Dolžina odstavka</button>
+    <button class="gumb" id="skrajsaj_besedilo" onclick="skrajsaj_odstavek()">Skrajšaj besedilo</button>
+    <button class="gumb" id="obnrni_besedilo" onclick="obrni_besedilo()">Obrni besedilo</button>
+    <button class="gumb" id="zamenjaj_sumnike" onclick="zamenjaj_sumnike()">Zamenjaj šumnike</button>
+    <hr>
+    
+    <p><b>Naključno generirano leto:</b></p>
+    <div id="leto"></div>
+    <p id="leto-je-prestopno"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

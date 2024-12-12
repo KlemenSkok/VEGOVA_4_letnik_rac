@@ -1,0 +1,45 @@
+
+:root {
+    --secondary-color: #247bfd;
+}
+
+body {
+    margin: 0 200px;
+}   
+
+#vnos-imena {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#pozdrav {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.gumb {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    transition: 0.2s ease-in-out 0s;
+}
+
+.gumb:hover {
+    transform: scale(1.1);
+}
+
+#leto {
+    font-size: 20px;
+    border: 2px solid var(--secondary-color);
+    padding: 5px 10px;
+    width: 50px;
+    text-align: center;
+}
+

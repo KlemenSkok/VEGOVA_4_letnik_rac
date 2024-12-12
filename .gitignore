@@ -1,0 +1,6 @@
+
+# vse .zip datoteke (oddaje v moodle)
+*.zip
+
+# Word TMP files
+~$*.docx

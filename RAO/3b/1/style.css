@@ -1,0 +1,26 @@
+
+body div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body button {
+    align-self: flex-end;
+}
+
+button {
+    background-color: #38f2ff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #1f971f;
+}
