@@ -1,0 +1,27 @@
+
+
+body {
+    background-color: lightgray;
+    font-family: comic sans ms;
+}
+
+h1, h2, h3 {
+    color: brown;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+td {
+    border: dotted;
+}
+
+.prviOdstavek {
+    text-indent: 10px;
+    font-style: italic;
+}

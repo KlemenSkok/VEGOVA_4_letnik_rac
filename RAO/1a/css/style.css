@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+/* barve za dele zaslona */
+
+.modra {
+    background-color: blue;
+}
+.rdeca {
+    background-color: red;
+}
+.rumena {
+    background-color: yellow;
+}
+.zelena {
+    background-color: green;
+}
+
+/* class za centriran div */
+
+.centered {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* galerija slik */ 
+
+.galerija {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;    
+    row-gap: 100px;
+    justify-content: center;
+}
+
+.slika_container {
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+img {
+    border: 5px solid black;
+}

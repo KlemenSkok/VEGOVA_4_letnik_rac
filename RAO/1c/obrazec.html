@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrazec</title>
+</head>
+<body>
+    <h1>Prijavnica</h1>
+    <table style="width: 15;">
+        <tr>
+            <td>Ime: <br> Priimek:</td>
+            <td>
+                <input type="text" name="ime" id="ime_input"><br>
+                <input type="text" name="priimek" id="priimek_input"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Spol:</td>
+            <td style="display: inline-flex">
+                <div>
+                    <input type="radio" name="spol" id="spol_m" value="Moški">
+                    <label for="spol_m">Moški</label>
+                </div>
+                <div>
+                    <input type="radio" name="spol" id="spol_z" value="Ženski">
+                    <label for="spol_z">Ženski</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Opis:</td>
+            <td>
+                <textarea name="opis" id="opis" cols="80" rows="7" style="min-width: 400px; min-height: 50px;"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Plačilo:</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="placilo_cb" id="placilo_eur">
+                    <label for="placilo_eur">EUR</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="placilo_cb" id="placilo_usd">
+                    <label for="placilo_usd">USD</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="placilo_cb" id="placilo_gbp">
+                    <label for="placilo_gbp">GBP</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="placilo_cb" id="placilo_chf">
+                    <label for="placilo_chf">CHF</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="placilo_cb" id="placilo_hrk">
+                    <label for="placilo_hrk">HRK</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Država</td>
+            <td>
+                <select name="drzava" id="drzava">
+                    <option value="slovenija">Slovenija</option>
+                    <option value="avstrija">Avstrija</option>
+                    <option value="nemcija">Nemčija</option>
+                    <option value="anglija">Anglija</option>
+                    <option value="zda">ZDA</option>
+                    <option value="hrvaska">Hrvaška</option>
+                    <option value="svica">Švica</option>
+                </select>
+            </td>
+        </tr>
+        <td colspan="2" align="right">
+            <button type="submit">Pošlji prijavo</button><br><br>
+            <button type="reset">Počisti prijavo</button>
+        </td>
+    
+    </table>
+    
+    
+    
+    
+    
+</body>
+</html>
